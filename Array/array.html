@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array</title>
+    <script src="array.js"></script>
+</head>
+
+<body>
+
+    <input type="text" id="userInput" placeholder="Input Name to push" />
+    <button onclick="pushArray()"><b>Push element</b></button>
+    <button onclick="deleteAll()"><b>Delete All</b></button>
+
+    <div style="margin-top: 20px">
+        <input type="text" id="deleteName" placeholder="Delete Name" />
+        <button onclick="deleteGuy()"><b>Delete This guy</b></button>
+    </div>
+
+    <div style="margin-top: 20px">
+        <input type="text" id="deleteIndex" placeholder="Delete Index">
+        <button onclick="deleteIndex()"> <b>Delete using Index</b></button>
+    </div>
+
+    <div style="margin-top: 20px">
+        <input type="text" id="replacename" placeholder="Replace Name" />
+        <input type="text" id="actualname" placeholder="Actual Array Name" />
+        <button onclick="replaceGuy()"><b>Replace This guy</b></button>
+    </div>
+
+    <div style="margin-top: 20px">
+        <input type="text" id="replaceindex" placeholder="Replace index" />
+        <input type="text" id="actualindex" placeholder="actual Index" />
+        <button onclick="replaceWithIndex()"><b>Replace guy in this index</b></button>
+    </div>
+
+    <div style="margin-top: 20px;">
+        <input type="text" id="vowelCount" placeholder="vowel count">
+        <button onclick="funvowel()"><b>vowels count in array</b></button>
+    </div>
+
+    <div>
+        <p style="margin-top: 20px; font-weight: bold; font-size: 20; text-align: center">OUTPUT :</p>
+        <p id="output" style="font-weight: bold; font-size: 20; text-align: center"></p>
+    </div>
+</body>
+
+</html>
