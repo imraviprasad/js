@@ -7,6 +7,9 @@ function maxofthree() {
     if ((num1 == num2) && (num1 == num3)) {
         document.getElementById("output").innerHTML = "All numbers are equal";
 
+    } else if ((num2 == num1) && (num2 == num3)) {
+        document.getElementById("output").innerHTML = "All numbers are equal";
+
     } else if ((num1 > num2) && (num1 > num3)) {
         document.getElementById("output").innerHTML = num1 + " is larger than " + num2 + " and " + num3;
 

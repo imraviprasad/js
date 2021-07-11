@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Javascript program to print prime number between (1 - 1000) in Javascript? </title>
+    <script src="45.js"></script>
+</head>
+
+<body>
+    <script>
+        var num = 1000;
+        var prime;
+        for (i = 2; i <= num; i++) {
+            prime = 1;
+            for (var j = 2; j <= i / 2; j++) {
+                if (i % j == 0) {
+                    prime = 0;
+                    break;
+
+                }
+            }
+            if (prime == 1) {
+                document.write(i + "<br>");
+            }
+        }
+    </script>
+</body>
+
+</html>
